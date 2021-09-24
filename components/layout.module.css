@@ -1,0 +1,66 @@
+.container {
+    max-width: 36rem;
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+  }
+
+  .header{
+    width:100vw;
+    background-color: rgb(15, 33, 48);
+    height:80px;
+    top:0;
+    position:fixed;
+    padding: 6px 30px; 
+  }
+  .headerLayout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logo{
+    margin:auto;
+  }
+   .buttonMain{
+     background-color: rgb(29, 191, 137);
+     width: 140px;
+     height: 40px;
+     color: white;
+     border: 2px solid rgb(29, 191, 137);
+     border-radius: 5px;
+     margin: auto 0;
+     font-weight: 500;
+  }
+   .buttonMain:hover{
+    background-color: transparent;
+    color: rgb(29, 191, 137);
+  }
+  .landing{
+    background-color: rgb(15, 33, 48);
+    width: 100vw;
+    height:85vh;
+    padding:4%;
+    top:10;
+  }
+  .pageSectionTitle {
+    color:white;
+    line-height:3.5rem;
+  }
+  .Capability{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .capabilityCard{
+    text-align: center;
+    width: 180px;
+    height: 220px;
+    padding:10px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border-radius:5px;
+  }
+  .paragraph{
+    color: white;
+  }
