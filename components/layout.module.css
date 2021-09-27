@@ -3,14 +3,18 @@
     padding: 0 1rem;
     margin: 3rem auto 6rem;
   }
-
+ .tech{
+   background-color: rgb(245, 247, 250);
+   width:100%;
+ }
   .header{
     width:100vw;
     background-color: rgb(15, 33, 48);
-    height:80px;
+    height:60px;
     top:0;
     position:fixed;
-    padding: 6px 30px; 
+    padding: 3px 30px; 
+    z-index:5;
   }
   .headerLayout{
     display: flex;
@@ -34,12 +38,35 @@
     background-color: transparent;
     color: rgb(29, 191, 137);
   }
+  .buttonSecondary{
+    background-color: transparent;
+    height: 40px;
+    color: rgb(29, 191, 137);
+    border: 2px solid rgb(29, 191, 137);
+    border-radius: 5px;
+    margin: auto 10px;
+    font-weight: 500;
+
+ }
   .landing{
     background-color: rgb(15, 33, 48);
     width: 100vw;
-    height:85vh;
+    min-height:85vh;
     padding:4%;
     top:10;
+  }
+  .landingTitle{
+   width:100%;
+   max-width:1140px;
+   margin:auto;
+  }
+  .techLanding{
+    background-color: rgb(245, 247, 250);
+    padding:14vh 8vw;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .pageSectionTitle {
     color:white;
@@ -47,9 +74,11 @@
   }
   .Capability{
     width: 100%;
+    max-width:1140px;
+    margin:auto;
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .capabilityCard{
     text-align: center;
@@ -63,4 +92,85 @@
   }
   .paragraph{
     color: white;
+  }
+  .card{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+  .api{
+    width:240px;
+    height:100px;
+    background-color: rgb(29, 191, 137);
+    padding:5px 8px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  .input{
+    height:40px;
+    margin:auto 10px;
+    padding:5px;
+  }
+  .TechHeading{
+    font-size: 1.1rem;
+    font-weight: 500;
+    
+  }
+  .sectionTitle{
+    font-size: 2.5rem;
+  }
+  .contentText{
+    font-size: 1rem;
+    color:rgb(108, 117, 125);
+    line-height:2rem;
+  }
+  .Description{
+    width:100%;
+    max-width:1140px;
+    margin:auto;
+    text-align:center;
+    padding-bottom: 8vh;
+  }
+  .cardWrapper{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:5vh 0;
+  }
+  .Card{
+    text-align: start;
+    width: 250px;
+  }
+  .Materials{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+  }
+  .inactive{
+    color:grey;
+  }
+  .active{
+    color:black;
+  }
+  .nda{
+    background-color: rgb(15, 33, 48);
+    color: rgb(245, 247, 250);
+    width: 100%;
+    min-height: 85vh;
+    text-align: center;
+    padding: 10vh 0;
+  }
+  .ndaCard{
+    display: flex;
+    flex-direction: row;
+  }
+  .NdaWrapper{
+    width: 100%;
+    max-width: 1140px;
+    padding:5vh 0;
+    margin: auto;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
   }

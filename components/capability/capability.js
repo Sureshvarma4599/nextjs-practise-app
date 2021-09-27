@@ -1,44 +1,20 @@
 import styles from '../layout.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import Injection from "../../assets/injectionMolding.png"
-import Sheet from "../../assets/sheetMetal.png"
-import Vaccum from "../../assets/vacuumCasting.png"
+import {Datas} from "../data"
 export default function Header() {
-    const data = [
-        {
-            image: Injection,
-            text: "Injection Molding",
-            link: "injection-molding"
-        },{
-            image: Vaccum,
-            text: "Vaccum Casting",
-            link: "vaccum-casting"
-        },{
-            image: Sheet,
-            text: "Sheet Metal",
-            link: "sheet-metal"
-        },{
-            image: Injection,
-            text: "Injection Molding",
-            link: "injection-molding"
-        },{
-            image: Vaccum,
-            text: "Vaccum Casting",
-            link: "vaccum-casting"
-        }
-    ]
+    const data = Datas
     return (
         <div className={styles.Capability}>
             {data.map((e,i)=>
-            <Link href={`/tech/${e.link}`}>
+            <Link href={`/${e.link}`}>
                 <div className={styles.capabilityCard} key={i}>
                   <Image 
                    src={e.image}
                    width={80}
                    height={120}
                    />
-                  <p>{e.text}</p>
+                  <p className={styles.TechHeading}>{e.text}</p>
                 </div>
             </Link>
             
