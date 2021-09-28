@@ -90,7 +90,7 @@ export default function Tech({data,apidata}) {
                 data = Datas[4];
                 break;
             case "3d-printing" :
-                data = Datas[5];
+                data = Datas[3];
                 break;
                 
         }
