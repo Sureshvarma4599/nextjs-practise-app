@@ -100,7 +100,25 @@ import Cnc from "../assets/cncMachining.png"
                 abb: "High-Density PolyEthylene (HDPE) ",
                 des: "Tough and Stiff low-cost material with excellent chemical resistance and a natural waxy appearance. Common Applications are Chair seats, housings, covers, and containers.",
               }
-        ]
+        ],
+        application: {
+          heading: "Common Injection Molding Process Applications",
+          subheading: "Few of common applications for which our customers have been using Injection Molding manufacturing process",
+          data: [
+            {
+              h: "Toys & Entertainment",
+              s: "Different kind of toys, parts of musical instruments and speaker casings",
+            },
+            {
+              h: "Household Products & Appliances",
+              s: "Storage containers, bottles, combs, kitchenware, etc",
+            },
+            {
+              h: "Enclosures",
+              s: "Enclosures for custom embedded system devices.",
+            },
+          ],
+        },
     },{
         image: Vaccum,
         text: "Vaccum Casting",
@@ -144,7 +162,26 @@ import Cnc from "../assets/cncMachining.png"
                 abb: "Rubber-8891",
                 des: "Translucent and Pigmentable material with adjustable Hardness.Common applications include gaskets and seals.",
               }
-        ]
+        ],
+
+  application: {
+    heading: "Common Vacuum Casting Process Applications",
+    subheading: "Few of common applications for which our customers have been using Vacuum Casting manufacturing process",
+    data: [
+      {
+        h: "Prototyping & Market-fit Test",
+        s: "Typically used for beta builds & market-fit testing of a product.",
+      },
+      {
+        h: "Decoratives",
+        s: "Decoratives & showpieces with intricate details.",
+      },
+      {
+        h: "Med Tech",
+        s: "Enclosures, casings and prosthetics using compliant materials.",
+      },
+    ],
+  },
     },{
         image: Sheet,
         text: "Sheet Metal",
@@ -240,7 +277,26 @@ import Cnc from "../assets/cncMachining.png"
                 abb: "High-Density PolyEthylene (HDPE) ",
                 des: "Tough and Stiff low-cost material with excellent chemical resistance and a natural waxy appearance. Common Applications are Chair seats, housings, covers, and containers.",
               }
-        ]
+        ],
+
+  application: {
+    heading: "Common Vacuum Casting Process Applications",
+    subheading: "Few of common applications for which our customers have been using Vacuum Casting manufacturing process",
+    data: [
+      {
+        h: "Prototyping & Market-fit Test",
+        s: "Typically used for beta builds & market-fit testing of a product.",
+      },
+      {
+        h: "Decoratives",
+        s: "Decoratives & showpieces with intricate details.",
+      },
+      {
+        h: "Med Tech",
+        s: "Enclosures, casings and prosthetics using compliant materials.",
+      },
+    ],
+  },
     },{
         image: ThreeD,
         text: "3D Printing",
@@ -336,7 +392,29 @@ import Cnc from "../assets/cncMachining.png"
                 abb: "High-Density PolyEthylene (HDPE) ",
                 des: "Tough and Stiff low-cost material with excellent chemical resistance and a natural waxy appearance. Common Applications are Chair seats, housings, covers, and containers.",
               }
-        ]
+        ],
+        application: {
+          heading: "Common 3D Printing Process Applications",
+          subheading: "Few of common applications for which our customers have been using 3D Printing manufacturing process",
+          data: [
+            {
+              h: "Figurines",
+              s: "Get custom models, showpieces and jewelry printed in any size with high detailing.",
+            },
+            {
+              h: "Collectibles & Jewelry",
+              s: "Get custom models, showpieces and jewelry printed in any size with high detailing.",
+            },
+            {
+              h: "Rapid Manufacturing",
+              s: "With processes like SLA and MJF, get durable products manufactured in quick turnaround.",
+            },
+            {
+              h: "Prototype & Market Fit Test",
+              s: "Fast and affordable way to give your idea a life and test it.",
+            },
+          ],
+        },
     },{
         image: Cnc,
         text: "CNC Machining",
@@ -394,7 +472,26 @@ import Cnc from "../assets/cncMachining.png"
                 abb: "Stainless Steel 316L",
                 des: "Higher corrosion resistance and good weldability properties.Common applications include heat exchangers, pressure vessels, chemical containers and food preparation equipment.",
               },
-      ]
+      ],
+      application: {
+        heading: "Common CNC Machining Process Applications",
+        subheading: "Few of common applications for which our customers have been using CNC Machining manufacturing process",
+        data: [
+          {
+            h: "Automotive & Aerospace Components",
+            s: "Custom parts withstanding heavy stress and high temperature environment.",
+          },
+          {
+            h: "Fixtures & Custom Mechanical Components",
+            s: "Large and small sized parts with intricate details and tight tolerance parts with threads & slots.",
+          },
+          {
+            h: "Rapid Prototyping",
+            s: "Custom parts for quick market testing like consumer end products and prototyping. Functional parts like gears and machine components.",
+          },
+        ],
+      },
+      
     }
 ]
 export { Datas };

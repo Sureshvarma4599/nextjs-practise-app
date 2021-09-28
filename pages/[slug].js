@@ -8,8 +8,9 @@ import axios from "axios"
 import Description from "../components/description/description"
 import Materials from "../components/materials/materials"
 import Nda from "../components/nda/nda"
+import Applications from "../components/applications/applications"
 export default function Tech({data,apidata}) {
-
+/*
     const [email ,setEmail] = useState("");
     const handleChange =(e)=>{
         setEmail(e.currentTarget.value);
@@ -24,7 +25,7 @@ export default function Tech({data,apidata}) {
         })
         setEmail("")
     }
-   
+   */
     return (
       <div className={Styles.tech}>
         <Head>
@@ -60,27 +61,6 @@ export default function Tech({data,apidata}) {
              height={280}
             />
           </div>
-            {/*
-            <input 
-              className = {Styles.input}
-              value ={email}
-              placeholder="Email *"
-              onChange={handleChange}
-            />
-            <button 
-              className={Styles.buttonMain}
-              onClick={submitHandler}
-            >
-                Post
-            </button>
-            <div className={Styles.card}>
-            {apidata.map((e,i)=>
-                <div key={i} className={Styles.api}>
-                    <p className={Styles.paragraph}>Email  :  {e.email}</p>
-                </div>
-            )}
-            </div>
-            */}
         </div>
         <Description/>
         <Materials 
@@ -88,6 +68,7 @@ export default function Tech({data,apidata}) {
           data={Datas[data].materials} 
         />
         <Nda/>
+        <Applications apps={Datas[data].application}/>
       </div>
     )
   }
@@ -143,5 +124,30 @@ export default function Tech({data,apidata}) {
         apidata:api
       }
     }
-  }*/ 
+  }
+  
+   {/*
+            <input 
+              className = {Styles.input}
+              value ={email}
+              placeholder="Email *"
+              onChange={handleChange}
+            />
+            <button 
+              className={Styles.buttonMain}
+              onClick={submitHandler}
+            >
+                Post
+            </button>
+            <div className={Styles.card}>
+            {apidata.map((e,i)=>
+                <div key={i} className={Styles.api}>
+                    <p className={Styles.paragraph}>Email  :  {e.email}</p>
+                </div>
+            )}
+            </div>
+           
+  
+  
+  */ 
   
